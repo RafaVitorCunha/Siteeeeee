@@ -1,0 +1,130 @@
+.sidebar{
+    transition: transform 0.3s;
+}
+
+.sidebar a{
+        display: block;
+        text-decoration: none;
+        color: aliceblue; 
+        padding: 10px 0 10px 10px;
+    }
+@media (max-width: 992px){
+
+    .sidebar{
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 1;
+    }
+
+    .sidebar a:hover{
+        background-color: #4A4947;
+
+    }
+
+    .sidebar.show{
+        transform: translateX(0);
+    }
+
+}
+
+
+.add-to-cart-btn {
+    font-size: 16px;
+    background-color: #965b4e;
+    color: #FAF7F0;
+    padding: 4px 40px;
+    border-radius: 50px;
+    border: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #4A4947;
+    transform: scale(1.09);
+}
+
+.camera-digital {
+    width: 200px;
+    height: 165px; 
+}
+
+.fone-ouvido {
+    width: 175px;
+    height: 165px;
+}
+
+.laptop {
+    width: 225px;
+    height: 165px;
+}
+
+.tablet {
+    width: 225px;
+    height: 165px;
+}
+
+.product-body {
+    justify-content: space-between;
+    padding: 10px;
+    color: #4A4947;
+}
+
+.product-old-price {
+    color: #B17457;
+}
+
+.product-description {
+    color: #8D493A;
+}
+
+.btn-primary {
+    background-color: #4a4847;
+    color: #FAF7F0;
+}
+
+.btn-secondary {
+    background-color: #777672;
+    color: #FAF7F0;
+}
+
+.cards-vendas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #fef2ef;
+    border: 1px solid #d7bbb4;
+    border-radius: 10px;
+    padding: 10px; /* Adicionei um padding para dar um espaço interno */
+}
+
+.cards-vendas .card {
+    flex: 1;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px; /* Deixa os cards arredondados */
+}
+
+.card-bloco-vendas {
+    background-color: #da8c7d;
+    border: 1px solid #cd8577;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card {
+    background-color: #fef2ef;
+    border: 1px solid #d7bbb4;
+    border-radius: 10px; /* Adiciona bordas arredondadas aos cards gerais */
+}
+
+.profile-button img {
+    width: 6vh;
+    float: right;
+}
+
+
